@@ -10,3 +10,8 @@ Inside the task 15 folder you will find:
 5. a compressed folder that I used to submit my task
 
 ## Installation 
+To install this project locally:
+1. Go to the "< > Code" tab of this project
+2. Click the green "Code" button
+3. Select "Download" 
+A zip file will download to your computor and your will be able to start working on the project yourself. 
