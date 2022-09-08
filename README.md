@@ -21,7 +21,9 @@ When using these files there are a few things to keep in mind.
 
 The first is the naming and file structure. Be careful when changing names and moving files around because it may break some objects across the webpage that you may not expect. 
 
-The seceond thing to look out for is the way products in the catalogue were created. I used javascript objects and an array to create the product catalogue. I used that same catalogue across multiple pages (the index and the catalogue page) and referred back to the catalogue structure in my cart page and in my navbar. So when creating new products, editing the navbar and the cart page, you need to give extra care, because so much logic is tied into creating a product in javascript. Here is a screenshot of the js code for my catalogue section to show you what I mean:
+The seceond thing to look out for is the way products in the catalogue were created. I used javascript objects and an array to create the product catalogue. I used that same catalogue across multiple pages (the index and the catalogue page) and referred back to the catalogue structure in my cart page and in my navbar. So when creating new products, editing the navbar and the cart page, you need to give extra care, because so much logic is tied into creating a product in javascript. 
+
+Here is a screenshot of the js code for how I generate a cart item and another screenshot of how I use the generateCartItem code later in my discount funtion to show you what I mean:
 
 
 Everything else is fairly straightforward. Go wild and please share suggestions about how I can improve my code efficiency. 
