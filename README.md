@@ -25,7 +25,10 @@ The seceond thing to look out for is the way products in the catalogue were crea
 
 Here is a screenshot of the js code for how I generate a cart item and another screenshot of how I use the generateCartItem code later in my discount funtion to show you what I mean:
 
+![Generate cart item code](generateCartItem.png)
+![Discount function code](discount-function.png)
 
 Everything else is fairly straightforward. Go wild and please share suggestions about how I can improve my code efficiency. 
 
 ## Credits
+[Lindsay Hardie](https://github.com/linhardie94/)
