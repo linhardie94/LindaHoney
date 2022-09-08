@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Linda Honey Online Shop</title>
+    <link rel="stylesheet" href="src/lindahoney.css">
+    <script src="https://kit.fontawesome.com/254bc0b2fd.js"></script>
+</head>
+
+<body>
+    <section id="header">
+        <!--putting the logo in the navbar-->
+        <a href="index.html"><img src="images/logowhite.png" class="logo" alt="logo" style="height: 64px;"></a>
+
+        <!--adding the other pages to the navbar-->
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <div class="cart">
+                    <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <div id="cartAmount" class="cartAmount">0</div>
+                </div>
+            </ul>
+        </div>
+    </section>
+
+    <!--header section-->
+    <section id="page-header">
+        <h2>#whycook?</h2>
+        <p>I learnt how to cook. So you don't have to.</p>
+    </section>
+
+    <!--creating total value-->
+    <div id="label" class="text-center"></div>
+
+    <!--building shopping cart-->
+    <div class="shopping-cart" id="shopping-cart"></div>
+
+    <!--discount section and delivery section-->
+    <section id="cart-add" class="section-p1">
+        <div id="discount" class="discount">
+            <h4>Do you have a coupon?</h4>
+            <div>
+                <div id="message"></div>
+                <input type="text" name="discountCode" id="discountCode">
+                <button id="myButton" onclick="discountFunction()">Apply</button>
+            </div>
+
+        </div>
+
+        <div id="deliveryDiv">
+            <h4>Please select your delivery method</h4>
+            <label>Delivery method</label>
+            <br>
+            <select name="delivery" id="delivery">
+                <option></option>
+            </select>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="section-p1">
+        <div class="col">
+            <img src="images/logowhite.png" alt="">
+        </div>
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 14 Fake Street, Fake Suburb, Cape Town</p>
+            <p><strong>Email: </strong> lindsay@example.com</p>
+            <p><strong>Phone: </strong> 072 000 0000</p>
+        </div>
+    </footer>
+
+    <script src="src/data.js"></script>
+    <script src="src/cart.js"></script>
+</body>
+
+</html>
